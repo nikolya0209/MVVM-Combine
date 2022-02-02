@@ -58,8 +58,6 @@ class UserTableViewController: UITableViewController {
         
         return cell
     }
-    
-
 }
 
 
