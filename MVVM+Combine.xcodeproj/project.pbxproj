@@ -62,18 +62,66 @@
 		525B239E27A96671009057C5 /* MVVM+Combine */ = {
 			isa = PBXGroup;
 			children = (
-				525B239F27A96671009057C5 /* AppDelegate.swift */,
-				525B23A127A96671009057C5 /* SceneDelegate.swift */,
-				525B23A327A96671009057C5 /* UserTableViewController.swift */,
-				525B23B727A97139009057C5 /* ApiManager.swift */,
-				525B23B527A96FD8009057C5 /* UsersViewModel.swift */,
-				525B23B327A96FAF009057C5 /* User.swift */,
-				525B23A527A96671009057C5 /* Main.storyboard */,
-				525B23A827A96674009057C5 /* Assets.xcassets */,
-				525B23AA27A96674009057C5 /* LaunchScreen.storyboard */,
-				525B23AD27A96674009057C5 /* Info.plist */,
+				525B23B927AAE6B9009057C5 /* Application */,
+				525B23BA27AAE7D2009057C5 /* Model */,
+				525B23BB27AAE7F1009057C5 /* View */,
+				525B23BC27AAE80D009057C5 /* ViewModel */,
+				525B23BD27AAE81D009057C5 /* ApiManager */,
+				525B23BE27AAE850009057C5 /* Helpers */,
 			);
 			path = "MVVM+Combine";
+			sourceTree = "<group>";
+		};
+		525B23B927AAE6B9009057C5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				525B239F27A96671009057C5 /* AppDelegate.swift */,
+				525B23A127A96671009057C5 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		525B23BA27AAE7D2009057C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				525B23B327A96FAF009057C5 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		525B23BB27AAE7F1009057C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				525B23A327A96671009057C5 /* UserTableViewController.swift */,
+				525B23A527A96671009057C5 /* Main.storyboard */,
+				525B23AA27A96674009057C5 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		525B23BC27AAE80D009057C5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				525B23B527A96FD8009057C5 /* UsersViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		525B23BD27AAE81D009057C5 /* ApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				525B23B727A97139009057C5 /* ApiManager.swift */,
+			);
+			path = ApiManager;
+			sourceTree = "<group>";
+		};
+		525B23BE27AAE850009057C5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				525B23A827A96674009057C5 /* Assets.xcassets */,
+				525B23AD27A96674009057C5 /* Info.plist */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,7 +348,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C8V9DS8345;
-				INFOPLIST_FILE = "MVVM+Combine/Info.plist";
+				INFOPLIST_FILE = "MVVM+Combine/Helpers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,7 +367,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C8V9DS8345;
-				INFOPLIST_FILE = "MVVM+Combine/Info.plist";
+				INFOPLIST_FILE = "MVVM+Combine/Helpers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
